@@ -19,7 +19,7 @@ app.get("/", async (c) => {
 serve(
   {
     fetch: app.fetch,
-    port: 3000,
+    port: 8080,
   },
   (info) => {
     console.log(
